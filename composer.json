@@ -4,7 +4,13 @@
     "type": "l",
     "require": {
         "php": ">=7.2",
-        "guzzlehttp/guzzle": "~6.0",
+        "ext-openssl": "*",
+        "ext-simplexml":"*",
+        "ext-libxml": "*",
+        "ext-json": "*",
+        "ext-bcmath": "*",
+        "symfony/http-foundation": "^4.0 || ^5.0.7",
+        "symfony/event-dispatcher": "^4.0 || ^5.0",
         "ansuns/support": "dev-master"
     },
     "license": "MIT",
