@@ -3,7 +3,7 @@
     "description": "集成三方支付SDK",
     "type": "l",
     "require": {
-        "php": ">=7.2",
+        "php": ">=7.2"
     },
     "license": "MIT",
     "authors": [
