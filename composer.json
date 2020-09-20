@@ -4,7 +4,8 @@
     "type": "l",
     "require": {
         "php": ">=7.2",
-        "guzzlehttp/guzzle": "~6.0"
+        "guzzlehttp/guzzle": "~6.0",
+        "ansuns/support": "dev-master"
     },
     "license": "MIT",
     "authors": [
