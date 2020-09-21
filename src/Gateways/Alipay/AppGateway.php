@@ -1,12 +1,12 @@
 <?php
 
-namespace Ansuns\Pay\Gateways\Alipay;
+namespace Ansuns\Payment\Gateways\Alipay;
 
 use Symfony\Component\HttpFoundation\Response;
-use Ansuns\Pay\Events;
-use Ansuns\Pay\Exceptions\InvalidArgumentException;
-use Ansuns\Pay\Exceptions\InvalidConfigException;
-use Ansuns\Pay\Gateways\Alipay;
+use Ansuns\Payment\Events;
+use Ansuns\Payment\Exceptions\InvalidArgumentException;
+use Ansuns\Payment\Exceptions\InvalidConfigException;
+use Ansuns\Payment\Gateways\Alipay;
 
 class AppGateway extends Gateway
 {

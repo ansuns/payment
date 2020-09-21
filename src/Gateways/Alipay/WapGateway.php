@@ -1,6 +1,6 @@
 <?php
 
-namespace Ansuns\Pay\Gateways\Alipay;
+namespace Ansuns\Payment\Gateways\Alipay;
 
 class WapGateway extends WebGateway
 {

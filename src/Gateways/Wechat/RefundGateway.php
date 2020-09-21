@@ -1,8 +1,8 @@
 <?php
 
-namespace Ansuns\Pay\Gateways\Wechat;
+namespace Ansuns\Payment\Gateways\Wechat;
 
-use Ansuns\Pay\Exceptions\InvalidArgumentException;
+use Ansuns\Payment\Exceptions\InvalidArgumentException;
 
 class RefundGateway extends Gateway
 {

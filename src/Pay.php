@@ -1,13 +1,13 @@
 <?php
 
-namespace Ansuns\Pay;
+namespace Ansuns\Payment;
 
 use Exception;
-use Ansuns\Pay\Contracts\GatewayApplicationInterface;
-use Ansuns\Pay\Exceptions\InvalidGatewayException;
-use Ansuns\Pay\Gateways\Alipay;
-use Ansuns\Pay\Gateways\Wechat;
-use Ansuns\Pay\Listeners\KernelLogSubscriber;
+use Ansuns\Payment\Contracts\GatewayApplicationInterface;
+use Ansuns\Payment\Exceptions\InvalidGatewayException;
+use Ansuns\Payment\Gateways\Alipay;
+use Ansuns\Payment\Gateways\Wechat;
+use Ansuns\Payment\Listeners\KernelLogSubscriber;
 use Ansuns\Supports\Config;
 use Ansuns\Supports\Log;
 use Ansuns\Supports\Logger;

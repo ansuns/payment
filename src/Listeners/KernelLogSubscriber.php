@@ -1,10 +1,10 @@
 <?php
 
-namespace Ansuns\Pay\Listeners;
+namespace Ansuns\Payment\Listeners;
 
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
-use Ansuns\Pay\Events;
-use Ansuns\Pay\Log;
+use Ansuns\Payment\Events;
+use Ansuns\Payment\Log;
 
 class KernelLogSubscriber implements EventSubscriberInterface
 {

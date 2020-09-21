@@ -1,9 +1,9 @@
 <?php
 
-namespace Ansuns\Pay\Gateways\Alipay;
+namespace Ansuns\Payment\Gateways\Alipay;
 
-use Ansuns\Pay\Contracts\GatewayInterface;
-use Ansuns\Pay\Exceptions\InvalidArgumentException;
+use Ansuns\Payment\Contracts\GatewayInterface;
+use Ansuns\Payment\Exceptions\InvalidArgumentException;
 use Ansuns\Supports\Collection;
 
 abstract class Gateway implements GatewayInterface

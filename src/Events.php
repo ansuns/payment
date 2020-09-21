@@ -1,6 +1,6 @@
 <?php
 
-namespace Ansuns\Pay;
+namespace Ansuns\Payment;
 
 use Exception;
 use Symfony\Component\EventDispatcher\EventDispatcher;

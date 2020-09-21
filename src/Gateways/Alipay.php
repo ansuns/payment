@@ -1,18 +1,18 @@
 <?php
 
-namespace Ansuns\Pay\Gateways;
+namespace Ansuns\Payment\Gateways;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Ansuns\Pay\Contracts\GatewayApplicationInterface;
-use Ansuns\Pay\Contracts\GatewayInterface;
-use Ansuns\Pay\Events;
-use Ansuns\Pay\Exceptions\GatewayException;
-use Ansuns\Pay\Exceptions\InvalidArgumentException;
-use Ansuns\Pay\Exceptions\InvalidConfigException;
-use Ansuns\Pay\Exceptions\InvalidGatewayException;
-use Ansuns\Pay\Exceptions\InvalidSignException;
-use Ansuns\Pay\Gateways\Alipay\Support;
+use Ansuns\Payment\Contracts\GatewayApplicationInterface;
+use Ansuns\Payment\Contracts\GatewayInterface;
+use Ansuns\Payment\Events;
+use Ansuns\Payment\Exceptions\GatewayException;
+use Ansuns\Payment\Exceptions\InvalidArgumentException;
+use Ansuns\Payment\Exceptions\InvalidConfigException;
+use Ansuns\Payment\Exceptions\InvalidGatewayException;
+use Ansuns\Payment\Exceptions\InvalidSignException;
+use Ansuns\Payment\Gateways\Alipay\Support;
 use Ansuns\Supports\Collection;
 use Ansuns\Supports\Config;
 use Ansuns\Supports\Str;

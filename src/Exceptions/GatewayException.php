@@ -1,6 +1,6 @@
 <?php
 
-namespace Ansuns\Pay\Exceptions;
+namespace Ansuns\Payment\Exceptions;
 
 class GatewayException extends Exception
 {

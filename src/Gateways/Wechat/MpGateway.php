@@ -1,12 +1,12 @@
 <?php
 
-namespace Ansuns\Pay\Gateways\Wechat;
+namespace Ansuns\Payment\Gateways\Wechat;
 
 use Exception;
-use Ansuns\Pay\Events;
-use Ansuns\Pay\Exceptions\GatewayException;
-use Ansuns\Pay\Exceptions\InvalidArgumentException;
-use Ansuns\Pay\Exceptions\InvalidSignException;
+use Ansuns\Payment\Events;
+use Ansuns\Payment\Exceptions\GatewayException;
+use Ansuns\Payment\Exceptions\InvalidArgumentException;
+use Ansuns\Payment\Exceptions\InvalidSignException;
 use Ansuns\Supports\Collection;
 use Ansuns\Supports\Str;
 

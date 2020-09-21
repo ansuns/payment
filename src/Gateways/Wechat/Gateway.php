@@ -1,12 +1,12 @@
 <?php
 
-namespace Ansuns\Pay\Gateways\Wechat;
+namespace Ansuns\Payment\Gateways\Wechat;
 
-use Ansuns\Pay\Contracts\GatewayInterface;
-use Ansuns\Pay\Events;
-use Ansuns\Pay\Exceptions\GatewayException;
-use Ansuns\Pay\Exceptions\InvalidArgumentException;
-use Ansuns\Pay\Exceptions\InvalidSignException;
+use Ansuns\Payment\Contracts\GatewayInterface;
+use Ansuns\Payment\Events;
+use Ansuns\Payment\Exceptions\GatewayException;
+use Ansuns\Payment\Exceptions\InvalidArgumentException;
+use Ansuns\Payment\Exceptions\InvalidSignException;
 use Ansuns\Supports\Collection;
 
 abstract class Gateway implements GatewayInterface

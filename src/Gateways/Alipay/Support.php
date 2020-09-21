@@ -1,15 +1,15 @@
 <?php
 
-namespace Ansuns\Pay\Gateways\Alipay;
+namespace Ansuns\Payment\Gateways\Alipay;
 
 use Exception;
-use Ansuns\Pay\Events;
-use Ansuns\Pay\Exceptions\GatewayException;
-use Ansuns\Pay\Exceptions\InvalidArgumentException;
-use Ansuns\Pay\Exceptions\InvalidConfigException;
-use Ansuns\Pay\Exceptions\InvalidSignException;
-use Ansuns\Pay\Gateways\Alipay;
-use Ansuns\Pay\Log;
+use Ansuns\Payment\Events;
+use Ansuns\Payment\Exceptions\GatewayException;
+use Ansuns\Payment\Exceptions\InvalidArgumentException;
+use Ansuns\Payment\Exceptions\InvalidConfigException;
+use Ansuns\Payment\Exceptions\InvalidSignException;
+use Ansuns\Payment\Gateways\Alipay;
+use Ansuns\Payment\Log;
 use Ansuns\Supports\Arr;
 use Ansuns\Supports\Collection;
 use Ansuns\Supports\Config;

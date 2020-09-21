@@ -1,20 +1,20 @@
 <?php
 
-namespace Ansuns\Pay\Gateways;
+namespace Ansuns\Payment\Gateways;
 
 use Exception;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Ansuns\Pay\Contracts\GatewayApplicationInterface;
-use Ansuns\Pay\Contracts\GatewayInterface;
-use Ansuns\Pay\Events;
-use Ansuns\Pay\Exceptions\GatewayException;
-use Ansuns\Pay\Exceptions\InvalidArgumentException;
-use Ansuns\Pay\Exceptions\InvalidGatewayException;
-use Ansuns\Pay\Exceptions\InvalidSignException;
-use Ansuns\Pay\Gateways\Wechat\Support;
-use Ansuns\Pay\Log;
+use Ansuns\Payment\Contracts\GatewayApplicationInterface;
+use Ansuns\Payment\Contracts\GatewayInterface;
+use Ansuns\Payment\Events;
+use Ansuns\Payment\Exceptions\GatewayException;
+use Ansuns\Payment\Exceptions\InvalidArgumentException;
+use Ansuns\Payment\Exceptions\InvalidGatewayException;
+use Ansuns\Payment\Exceptions\InvalidSignException;
+use Ansuns\Payment\Gateways\Wechat\Support;
+use Ansuns\Payment\Log;
 use Ansuns\Supports\Collection;
 use Ansuns\Supports\Config;
 use Ansuns\Supports\Str;

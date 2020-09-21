@@ -1,6 +1,6 @@
 <?php
 
-namespace Ansuns\Pay\Contracts;
+namespace Ansuns\Payment\Contracts;
 
 use Symfony\Component\HttpFoundation\Response;
 use Ansuns\Supports\Collection;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ansuns\Pay\Events;
+namespace Ansuns\Payment\Events;
 
 class ApiRequested extends Event
 {
