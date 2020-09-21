@@ -11,7 +11,7 @@
         "ext-bcmath": "*",
         "symfony/http-foundation": "^4.0 || ^5.0.7",
         "symfony/event-dispatcher": "^4.0 || ^5.0",
-        "ansuns/support": "dev-master"
+        "ansuns/support": "^1.0.1"
     },
     "license": "MIT",
     "authors": [

@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "782550bf32eb8db4982ae8c36ca3d29c",
+    "content-hash": "bfb608350a1babab556d54f8b5510c15",
     "packages": [
         {
             "name": "ansuns/support",
-            "version": "dev-master",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ansuns/support.git",
-                "reference": "127127160148eeb6c90089bbb7bfe769023186b5"
+                "reference": "3c8b25df099095bfd575ce3807797bfc5e93efd2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ansuns/support/zipball/127127160148eeb6c90089bbb7bfe769023186b5",
-                "reference": "127127160148eeb6c90089bbb7bfe769023186b5",
+                "url": "https://api.github.com/repos/ansuns/support/zipball/3c8b25df099095bfd575ce3807797bfc5e93efd2",
+                "reference": "3c8b25df099095bfd575ce3807797bfc5e93efd2",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -48,7 +48,7 @@
                 }
             ],
             "description": "support for ansuns/payment",
-            "time": "2020-09-20T23:50:04+00:00"
+            "time": "2020-09-21T00:13:29+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1470,9 +1470,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "ansuns/support": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
