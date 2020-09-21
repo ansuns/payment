@@ -82,7 +82,7 @@ class Pay
     /**
      * Make a gateway.
      *
-     * @author yansongda <me@yansonga.cn>
+     * @author ansuns
      *
      * @param string $gateway
      *
@@ -109,7 +109,7 @@ class Pay
     protected function registerLogService()
     {
         $config = $this->config->get('log');
-        $config['identify'] = 'yansongda.pay';
+        $config['identify'] = 'ansuns.pay';
 
         $logger = new Logger();
         $logger->setConfig($config);

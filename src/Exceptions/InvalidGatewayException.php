@@ -7,7 +7,7 @@ class InvalidGatewayException extends Exception
     /**
      * Bootstrap.
      *
-     * @author yansongda <me@yansonga.cn>
+     * @author ansuns
      *
      * @param string       $message
      * @param array|string $raw

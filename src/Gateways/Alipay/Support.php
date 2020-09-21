@@ -188,7 +188,7 @@ class Support
     /**
      * Verify sign.
      *
-     * @author yansongda <me@yansonga.cn>
+     * @author ansuns
      *
      * @param bool        $sync
      * @param string|null $sign
@@ -257,7 +257,7 @@ class Support
     /**
      * Convert encoding.
      *
-     * @author yansongda <me@yansonga.cn>
+     * @author ansuns
      *
      * @param string|array $data
      * @param string       $to
